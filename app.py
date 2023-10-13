@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 st.title('Stock Forecast App')
 
-stocks = ('GOOG', 'AAPL', 'MSFT', 'GME')
+stocks = ('GOOG', 'AAPL', 'MSFT', 'AMZN','META','TSLA','BRK.A','JNJ','KO','LLY')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
 # User defined parameters
