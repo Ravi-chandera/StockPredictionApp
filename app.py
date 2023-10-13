@@ -10,7 +10,7 @@ stocks = ('GOOG', 'AAPL', 'MSFT', 'AMZN','META','TSLA','BRK.A','JNJ','KO','LLY')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
 # User defined parameters
-years = st.slider('Years of prediction:', 1, 4)  
+years = st.slider('Years of prediction:', 1, 10)  
 period = years * 365 # days
 
 # Load data
